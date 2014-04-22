@@ -25,11 +25,29 @@ body {
 }
 
 .tip {
-  padding: 30px 48px;
+  padding: 48px 48px;
   background: white;
   font-size: 18px;
   line-height: 1.5em;
   box-sizing: border-box;
+}
+
+.tip-text {
+  margin-top: 0;
+}
+
+.attribution {
+  color: #03779e;
+  margin-bottom: 0;
+  height: 28px;
+  padding-left: 36px;
+  background: url(../img/default-avatar-28.png) left center no-repeat;
+}
+
+.attribution .date {
+  color: #00ba89;
+  font-style: italic;
+  padding-left: 1em;
 }
 
 #map-holder {
@@ -52,14 +70,4 @@ body {
   width: 100%;
   margin: 0px;
   padding: 0px
-}
-
-.attribution {
-  color: #03779e;
-}
-
-.attribution .date {
-  color: #00ba89;
-  font-style: italic;
-  padding-left: 1em;
 }
